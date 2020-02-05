@@ -1,0 +1,7 @@
+{
+  "name": "POCRealtimeUpdate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
