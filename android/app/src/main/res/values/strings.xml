@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">POCRealtimeUpdate</string>
+    <string name="title_activity_main">POCRealtimeUpdate</string>
+    <string name="package_name">nl.daanvanberkel.realtimepoc</string>
+    <string name="custom_url_scheme">nl.daanvanberkel.realtimepoc</string>
+</resources>

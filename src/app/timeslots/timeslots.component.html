@@ -1,0 +1,22 @@
+<h2>Bedrijf X</h2>
+
+<table>
+  <thead>
+  <tr>
+    <th>Tijd</th>
+    <th>Student</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let slot of slots">
+    <td>{{ slot.time }}</td>
+    <td>
+      <ion-button *ngIf="!slot.studentid" (click)="selectSlot(slot.id)">Selecteer tijdslot</ion-button>
+      <span *ngIf="slot.studentid">{{ slot.studentid }}</span>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<!-- FOR TESTING ONLY -->
+<ion-button size="small" fill="outline" (click)="resetSlots()">Reset</ion-button>
